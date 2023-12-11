@@ -13,7 +13,7 @@ public class MyProgram
     private static void bruteForceAttack(String targetPassword){
         char[] characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+=`~[{]}|;:<.>,?/".toCharArray();
         
-        //accesses length of the password to shorten run time (didnt want it to take forever on long passwords since codehs sucks)
+        //accesses length of the password to shorten run time
         int passwordLength = targetPassword.length();
         char[] currentGuess = new char[passwordLength];
         
